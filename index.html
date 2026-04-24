@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Logasanjay Portfolio</title>
+  <link rel="icon" href="assets/Icon.jpg">
+</head>
+<body>
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo">
+        <a href="#">Logasanjay <span></span></a>
+      </div>
+      <div class="nav__menu__btn" id="menu-btn">
+        <i class="ri-menu-line"></i>
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li class="link"><a href="#home">Home</a></li>
+      <li class="link"><a href="#about">About</a></li>
+      <li class="link"><a href="#education">Education</a></li>
+      <li class="link"><a href="#skills">Skills</a></li>
+      <li class="link"><a href="#projects">Projects</a></li>
+      <li class="link"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="header" id="home">
+    <div class="section__container header__container">
+      <h4>Hello, I'm <span class="hero-name">Logasanjay </span></h4>
+      <h1 class="typing-animation" id="typing-text">Software Developer</h1>
+      <div class="header__btns">
+        <button  class="btn btn__primary"  id="download-cv">Download CV</button>
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+    </div>
+  </header>
+        
+  <section class="section__container about__container" id="about">
+    <div class="about__image">
+      <img src="sanjay.jpg.jpeg" alt="about" />
+    </div>
+    <div class="about__content">
+      <h2 class="about__heading">About Me</h2>
+      <h4>Let's Introduce Myself</h4>
+      <div class="about">
+        <p><span class="label">Name:</span> Logasanjay M</p>
+        <p><span class="label">Birthday:</span> 12.10.2003</p>
+        <p><span class="label">Degree:</span> BE Mechanical Engineering</p>
+        <p><span class="label">Email:</span> logasanjay06@gmail.com</p>
+        <p><span class="label">Phone:</span> +91 6381516260</p>
+      </div><br>
+      <p class="section__description">
+            I'm an enthusiastic developer who enjoys crafting user-friendly and visually engaging digital experiences.
+            I love solving problems through code and continuously expanding my skills to build impactful projects.
+            My journey in technology is fueled by curiosity, creativity, and a passion for learning.
+      </p>
+    </div>
+  </section>
+
+  <section class="resume__container" id="education">
+    <h2 class="section__header">Education</h2><br>
+    <div class="resume__tabs">
+      <div class="resume__tablist">
+         
+          <div class="panel__grid active" data-panel="1">
+            <div class="panel__card">
+              <span><i class="ri-graduation-cap-fill"></i></span>
+              <h4>Bachelor's of Engineering</h4>
+              <p class="section__description">Hindusthan Institute of Technology</p>
+              <p class="section__description">CGPA: 7.9 </p>
+            </div>
+          
+            <div class="panel__card">
+              <span><i class="ri-graduation-cap-fill"></i></span>
+              <h4>Intern in Fullstack Development</h4>
+              <p class="section__description">BesantTechnologies</p>
+              <p class="section__description">Feb 2025 | Chennai</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- skills section -->
+  <section class="section__container service__container" id="skills">
+    <h2 class="section__header">Skills</h2><br>
+    <div class="service__grid">
+      <div class="service__card">
+        <i class="fab fa-html5" style="font-size:40px;color:orange;"></i>
+        <div>
+          <h4>HTML5</h4>
+        </div>
+      </div>
+      <div class="service__card">
+        <i class="fab fa-css3-alt" style="font-size:40px;color: rgb(115, 204, 255);"></i>
+        <div>
+          <h4>CSS</h4>
+        </div>
+      </div>
+      <div class="service__card">
+        <img src="js.webp" style="height: 45px; width: 45px;">
+        <div>
+          <h4>JavaScript</h4>
+        </div>
+      </div>
+
+      <div class="service__card">
+        <img src="react.png" style="height: 55px; width: 50px;">
+        <div>
+          <h4>React</h4>
+        </div>
+      </div>
+      <div class="service__card">
+        <img src="python.webp" style="height: 40px; width: 40px;">
+
+         <div>
+          <h4>Python</h4>
+        </div>
+      </div>
+      <div class="service__card">
+        <img src="8453211.png" style="height: 40px; width: 40px;">
+        <div>
+          <h4>SQL</h4>
+        </div>
+      </div>
+      <div class="service__card">
+        <img src="Api.png" style="height: 45px; width: 45px;">
+        <div>
+          <h4>Api</h4>
+        </div>
+      </div>
+      <div class="service__card">
+        <img src="git.png" style="height: 45px; width: 45px;">
+        <div>
+          <h4>github</h4>
+        </div>
+      </div>
+      
+      <div class="service__card">
+        <img src="claude.png" style="height: 40px; width: 40px;">
+        <div>
+          <h4>Claude</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- project section -->
+  <section class="section__container projects__container" id="projects">
+    <h2 class="section__header">Projects</h2><br>
+    <div class="projects__grid">
+      <div class="project__card">
+        <h4>Portfolio Website</h4>
+        <p class="section__description">A responsive personal portfolio website showcasing skills, projects, and contact information. Built with HTML, CSS, and JavaScript.</p>
+        <p><strong>Technologies:</strong> HTML5, CSS3, JavaScript</p>
+        <div class="project__links">
+          <a href="https://github.com/Akash-AK-01/portfolio" target="_blank" class="btn">View Code</a>
+          <a href="#" class="btn btn__primary">Live Demo</a>
+        </div>
+      </div>
+      <div class="project__card">
+        <h4>Add-to-Cart</h4>
+        <p class="section__description">Developed a dynamic Add-to-Cart web application enabling users to browse products, add items to cart, and manage selections efficiently.
+Implemented interactive UI using HTML, CSS, and JavaScript to enhance user experience and responsiveness.
+Integrated core functionalities such as cart management</p>
+        <p><strong>Technologies:</strong> HTML,CSS,Javascript,Bootstarp</p>
+        <div class="project__links">
+          <a href="http://github.com/Logasanjay07/add-to-cart-project" target="_blank" class="btn">View Code</a>
+          <a href="https://add-to-cart-project-drab.vercel.app/" target="_blank" class="btn btn__primary">Live Demo</a>
+        </div>
+      </div>
+      <!-- <div class="project__card">
+        <h4>Cinima Ticket Booking System</h4>
+        <p class="section__description">An online platform connecting organic farmers with customers for selling organic products,online payment gateway integration for seamless transactions.</p>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Python, MySQL</p>
+        <div class="project__links">
+          <a href="https://github.com/Akash-AK-01/organic-farming" target="_blank" class="btn">View Code</a>
+          <a href="#" class="btn btn__primary">Live Demo</a>
+        </div> -->
+      </div>
+    </div>
+  </section>
+  <!-- contact section -->
+<center>
+  <footer class="footer" id="contact">
+    <div class="section__container footer__container">
+      <div class="footer__grid">
+        <div class="footer__content">
+          <h1>Contact</h1><br>
+          <h2 class="name">Logasanjay M</h2><br>
+          <div class="box">
+            <p>
+              <i style="font-size:25px" class="fa">&#xf0e0;</i>
+              <a href="mailto:logasanjay06@gmail.com" target="_blank">logasanjay06@gmail.com</a>
+            </p>
+            <p>
+              <i class="fa fa-phone-square" style="font-size:30px"></i>
+              <span>+91-6381516260</span>
+            </p><br>
+          </div>
+        </div>
+      </div>
+      <hr >
+      <div class="footer_last">
+        <p>Thank you for visiting!</p>
+        <div class="footer__socials">
+          <a href="https://github.com/Logasanjay07" aria-label="github"><i class='fab fa-github' style='font-size:24px'></i></a>
+          <a href="https://www.instagram.com/" aria-label="instagram"><i class='fab fa-instagram' style='font-size:24px;background:linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); border-radius: 20px;'></i></a>
+          <a href="https://www.linkedin.com/in/logasanjay-m-6a79a2276/" aria-label="LinkedIn"><i class="ri-linkedin-fill" style="background: #0a60ff; border-radius: 3px;" ></i></a>
+        </div><br>
+        <div class="footer__bar">
+          © Copyright 2026 All rights reserved by Logasanjay M.
+        </div>
+      </div>
+    </div>
+  </footer>
+</center>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
