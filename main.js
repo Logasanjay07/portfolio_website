@@ -18,7 +18,7 @@ const downloadCv = document.getElementById("download-cv");
 
 downloadCv.addEventListener("click", (e) => {
   e.preventDefault();
-  window.open("https://drive.google.com/file/d/1MMsvCr8JIe83L33af4xeKVdFII-wlzdg/view?usp=drive_link", "_blank");
+  window.open("https://drive.google.com/file/d/1diq1BDAg3PnhdHSGYln5pEYQYcoImnwe/view?usp=drive_link", "_blank");
 });
 
 const scrollRevealOption = {
